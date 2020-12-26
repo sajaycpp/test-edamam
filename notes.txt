@@ -1,0 +1,33 @@
+r=http%3A%2F%2Fwww.edamam.com%2Fontologies%2Fedamam.owl%23recipe_9b5945e03f05acbf9d69625138385408
+
+
+cuisineType, - simultatniousely 
+mealType, 
+dishType - simultatniousely 
+health, - simultatniousely 
+
+calories, - RANGE is in one of MIN+, MIN-MAX or MAX, where MIN and MAX are non-negative integer numbers. The + symbol needs to be properly encoded
+time, - RANGE is in one of MIN+, MIN-MAX or MAX, where MIN and MAX are non-negative integer numbers. The + symbol needs to be properly encoded
+		RANGE is replaced by the value in minutes
+diet - Diet label: one of “balanced”, “high-protein”, “high-fiber”, “low-fat”, “low-carb”, “low-sodium”
+
+
+https://www.edamam.com/search?q=chicken&cuisineType=indian&mealType=dinner&dishType=soup&health=Vegan&calories=100-300&diet=low-sodium
+
+
+
+
+https://www.edamam.com/search?q=chicken&cuisineType=indian&mealType=dinner&dishType=soup&health=Vegan&calories=100-300&diet=low-sodium&time=1
+
+CuisineSelector,
+MealSelector,
+DishSelector,
+HealthSelector,
+DietSelector
+
+
+cuisineChanged,
+dietChanged,
+dishChanged,
+healthTypeChanged,
+mealChanged
